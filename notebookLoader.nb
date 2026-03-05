@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2625,         81]
-NotebookOptionsPosition[      2063,         64]
-NotebookOutlinePosition[      2672,         83]
-CellTagsIndexPosition[      2629,         80]
+NotebookDataLength[      1738,         55]
+NotebookOptionsPosition[      1178,         38]
+NotebookOutlinePosition[      1787,         57]
+CellTagsIndexPosition[      1744,         54]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,46 +21,20 @@ Notebook[{
 Cell[BoxData[{
  RowBox[{
   RowBox[{
-   RowBox[{"targetDir", "=", "\"\<D:\\\\book\\\\notebooks\>\""}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"If", "[", 
-    RowBox[{
-     RowBox[{"!", 
-      RowBox[{"DirectoryQ", "[", "targetDir", "]"}]}], ",", 
-     RowBox[{"CreateDirectory", "[", 
-      RowBox[{"targetDir", ",", 
-       RowBox[{"CreateIntermediateDirectories", "->", "True"}]}], "]"}]}], 
-    "]"}], ";"}], "\n"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"notebooks", "=", 
-    RowBox[{"{", 
+   RowBox[{"file", "=", 
+    RowBox[{"URLDownload", "[", 
      RowBox[{
-     "\"\<ch1Intro.nb\>\"", ",", "\"\<ch2Plots.nb\>\"", ",", 
-      "\"\<ch3Polygons.nb\>\""}], "}"}]}], ";"}], 
-  "\[IndentingNewLine]"}], "\n", 
+     "\"\<https://raw.githubusercontent.com/miliotodc/algFunctionBook/main/\
+downloadAll.nb\>\"", ",", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"$TemporaryDirectory", ",", "\"\<downloadAll.nb\>\""}], "}"}],
+        "]"}]}], "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"Do", "[", "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"Print", "[", 
-      RowBox[{"\"\<Downloading \>\"", ",", "nb"}], "]"}], ";", 
-     "\[IndentingNewLine]", 
-     RowBox[{"URLDownload", "[", 
-      RowBox[{
-       RowBox[{
-       "\"\<https://raw.githubusercontent.com/miliotodc/algFunctionBook/main/\
-\>\"", "<>", "nb"}], ",", 
-       RowBox[{"FileNameJoin", "[", 
-        RowBox[{"{", 
-         RowBox[{"targetDir", ",", "nb"}], "}"}], "]"}]}], "]"}]}], ",", 
-    RowBox[{"{", 
-     RowBox[{"nb", ",", "notebooks"}], "}"}]}], "]"}], ";"}]}], "Input",
- CellChangeTimes->{{3.981724456117587*^9, 3.9817244561195955`*^9}, {
-  3.9817245222790813`*^9, 3.981724586888671*^9}},
- CellLabel->"In[56]:=",ExpressionUUID->"3a186ba0-37c1-4443-bd07-e535b3236f9d"]
+  RowBox[{"NotebookOpen", "[", "file", "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.9817262432819653`*^9, 
+  3.9817262432976255`*^9}},ExpressionUUID->"bffd9f5e-7d08-4277-a7e8-\
+dc4663fb476e"]
 },
 WindowSize->{1012.5, 495.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -82,7 +56,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1501, 42, 211, "Input",ExpressionUUID->"3a186ba0-37c1-4443-bd07-e535b3236f9d"]
+Cell[558, 20, 616, 16, 97, "Input",ExpressionUUID->"bffd9f5e-7d08-4277-a7e8-dc4663fb476e"]
 }
 ]
 *)
