@@ -1,5 +1,5 @@
 # algFunctionBook
-This repository will contain companion Mathematica notebooks for the upcomming two-volume book "Algebraic Functions, A Computational Introduction for Undergraduated Using Mathematica, Volumes 1 and 2". 
+This repository will contain companion Mathematica notebooks for the upcomming two-volume book "Algebraic Functions, A Computational Introduction for Undergraduates Using Mathematica, Volumes 1 and 2". 
 
 These Mathematica notebooks are under active development as part of my forthcoming textbook.
 They will change frequently until the final edition is published.
