@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      3046,         87]
-NotebookOptionsPosition[      2265,         66]
-NotebookOutlinePosition[      2874,         85]
-CellTagsIndexPosition[      2831,         82]
+NotebookDataLength[      2505,         74]
+NotebookOptionsPosition[      1818,         54]
+NotebookOutlinePosition[      2427,         73]
+CellTagsIndexPosition[      2384,         70]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -31,37 +31,25 @@ volume1Notebooks.nb\>\"", ",",
       RowBox[{"FileNameJoin", "[", 
        RowBox[{"{", 
         RowBox[{"$TemporaryDirectory", ",", "\"\<volume1Notebooks.nb\>\""}], 
-        "}"}], "]"}]}], "]"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
+        "}"}], "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
  RowBox[{"NotebookOpen", "[", "file", "]"}]}], "Input",
  CellChangeTimes->{{3.9817262432819653`*^9, 3.9817262432976255`*^9}, 
    3.9817265203871827`*^9, {3.98377510958862*^9, 3.98377514739159*^9}, {
-   3.9837752153783445`*^9, 
-   3.983775220299024*^9}},ExpressionUUID->"bffd9f5e-7d08-4277-a7e8-\
-dc4663fb476e"],
-
-Cell[BoxData[
- TemplateBox[{
-  "URLDownload", "invhttp", 
-   "\"A library error occurred. The raw details are: \\\"libcurl error \
-(\\!\\(\\*RowBox[{\\\"23\\\"}]\\)): \\!\\(\\*RowBox[{\\\"\\\\\\\"Failure \
-writing output to destination\\\\\\\"\\\"}]\\)\\\"\"", 2, 62, 64, 
-   22089347446789781917, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9817267399384427`*^9},
- CellLabel->
-  "During evaluation of \
-In[62]:=",ExpressionUUID->"558abf6d-39eb-4a24-b2e1-329890539b1f"],
+   3.9837752153783445`*^9, 3.983775220299024*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"bffd9f5e-7d08-4277-a7e8-dc4663fb476e"],
 
 Cell[BoxData[
  TemplateBox[{
    FrontEndObject[
-    LinkObject["3ae7v_shm", 3, 1]], 72, 
-   "FrontEndObject[LinkObject[\"3ae7v_shm\", 3, 1]]", "72", 
-   "\"downloadAll.nb\"", 
-   "\"C:\\\\Users\\\\Dominic\\\\AppData\\\\Local\\\\Temp\\\\downloadAll.nb\""},
+    LinkObject["6ks43_shm", 3, 1]], 23, 
+   "FrontEndObject[LinkObject[\"6ks43_shm\", 3, 1]]", "23", 
+   "\"volume1Notebooks.nb\"", 
+   "\"C:\\\\Users\\\\Dominic\\\\AppData\\\\Local\\\\Temp\\\\volume1Notebooks.\
+nb\""},
   "NotebookObject"]], "Output",
- CellChangeTimes->{3.981726521774928*^9, 3.9817267400403166`*^9},
- CellLabel->"Out[63]=",ExpressionUUID->"1dde107f-8c2e-4a8e-9e21-f3dcc1751c75"]
+ CellChangeTimes->{3.981726521774928*^9, 3.9817267400403166`*^9, 
+  3.983776590633611*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"9d7b617f-5df2-466d-b46c-98520cd1ba71"]
 }, Open  ]]
 },
 WindowSize->{1012.5, 495.75},
@@ -85,9 +73,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 734, 17, 97, "Input",ExpressionUUID->"bffd9f5e-7d08-4277-a7e8-dc4663fb476e"],
-Cell[1317, 41, 497, 11, 28, "Message",ExpressionUUID->"558abf6d-39eb-4a24-b2e1-329890539b1f"],
-Cell[1817, 54, 432, 9, 55, "Output",ExpressionUUID->"1dde107f-8c2e-4a8e-9e21-f3dcc1751c75"]
+Cell[580, 22, 751, 16, 97, "Input",ExpressionUUID->"bffd9f5e-7d08-4277-a7e8-dc4663fb476e"],
+Cell[1334, 40, 468, 11, 83, "Output",ExpressionUUID->"9d7b617f-5df2-466d-b46c-98520cd1ba71"]
 }, Open  ]]
 }
 ]
